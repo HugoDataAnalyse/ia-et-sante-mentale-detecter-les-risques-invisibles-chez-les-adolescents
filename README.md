@@ -15,4 +15,4 @@ Phase 4 : IA Explicable (XAI)
 Utilisation des valeurs SHAP pour ouvrir la "boîte noire" du modèle. Pourquoi ce jeune est-il à risque ? Le graphique SHAP révèle l'impact précis de chaque facteur (ex: manque de sommeil vs temps d'écran).
 
 Phase 5 & 6 : Du Code à l'Action 
-Création d'un Score de Priorité pour aider à l'intervention précoce et d'un Simulateur de Risque visuel pour cartographier les zones de danger en temps réel.# D-tecterl-Invisible-Utiliser-l-IApourIdentifierLesrisquesdesant-mentalesilencieuxchezlesadolescents.
+Création d'un Score de Priorité pour aider à l'intervention précoce et d'un Simulateur de Risque visuel pour cartographier les zones de danger en temps réel.
