@@ -1,18 +1,14 @@
- L'IA au service de la Santé Mentale : Détecter les Risques Invisibles
-Peut-on être en danger alors que tous les voyants semblent au vert ? Dans le cadre de mon dernier projet en Data Science, j'ai voulu explorer cette zone grise où les adolescents déclarent un bien-être "correct" malgré des habitudes de vie alarmantes. 
+🧠 L'IA au service de la santé mentale : Détecter les risques invisibles
+Exploration de la "zone grise" chez les adolescents au bien-être déclaré correct mais aux habitudes alarmantes.→ Identification du "risque silencieux" en opposant les scores d'auto-déclaration aux données comportementales réelles.
 
- Le Problème : Le "Risque Silencieux"
-Les questionnaires de santé mentale classiques reposent sur l'auto-déclaration. Mais la donnée comportementale (sommeil, temps d'écran, stress) raconte souvent une autre histoire. Mon objectif : utiliser le Machine Learning pour identifier ces profils atypiques.
+🌲 Détection d'anomalies (Isolation Forest)
+Identification des profils atypiques dont les comportements divergent radicalement de la norme.→ Isolement des individus à risque malgré un score d'anxiété déclaré faussement rassurant.
 
- Ma démarche technique (Pipeline de A à Z)
-Phase 1 & 2 : Détection d'Anomalies 
-Utilisation de l'Isolation Forest pour isoler les individus dont les comportements divergent radicalement de la norme, même si leur score d'anxiété déclaré reste bas.
+🎯 Clustering & Archétypes (K-Means)
+Regroupement des profils détectés en familles comportementales distinctes.→ Segmentation en 3 groupes cibles : "Insomniaques Numériques", "Actifs Stressés" et "Profils Isolés".
 
-Phase 3 : Clustering & Archétypes 
-Grâce à K-Means, j'ai regroupé ces profils à risque en 3 familles distinctes : les "Insomniaques Numériques", les "Actifs Stressés" et les "Profils Isolés".
+👁️ IA Explicable & Transparence (SHAP)
+Ouverture de la "boîte noire" du modèle pour comprendre les facteurs de risque individuels.→ Visualisation de l'impact précis de chaque variable (ex: manque de sommeil vs temps d'écran).
 
-Phase 4 : IA Explicable (XAI) 
-Utilisation des valeurs SHAP pour ouvrir la "boîte noire" du modèle. Pourquoi ce jeune est-il à risque ? Le graphique SHAP révèle l'impact précis de chaque facteur (ex: manque de sommeil vs temps d'écran).
-
-Phase 5 & 6 : Du Code à l'Action 
-Création d'un Score de Priorité pour aider à l'intervention précoce et d'un Simulateur de Risque visuel pour cartographier les zones de danger en temps réel.
+📈 Aide à la décision & Simulation en temps réel
+Passage de l'analyse prédictive à l'action concrète pour l'intervention précoce.→ Création d'un score de priorité et d'un simulateur visuel pour cartographier les zones de danger.
